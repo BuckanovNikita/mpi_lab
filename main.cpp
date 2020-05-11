@@ -60,8 +60,7 @@ int main(int argc, char **argv)
         }
     }
 
-    MPI_Gather(working_c, block_size * n, MPI_DOUBLE, c, block_si
-    ze*n, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Gather(working_c, block_size * n, MPI_DOUBLE, c, block_size*n, MPI_DOUBLE, 0, MPI_COMM_WORLD);
     if (rank == 0)
     {
         if (mod_block_size > 0) {
