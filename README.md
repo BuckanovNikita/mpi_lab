@@ -1,2 +1,2 @@
 # mpi_lab
-Course of MPI in MIET
+MIET MPI Course tasks
